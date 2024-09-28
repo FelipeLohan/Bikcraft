@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(/fonts/Roboto/Roboto-Bold.ttf);
+}
+:root {
+  --font-GG: 64px;
+  --font-G: 32px;
+  --font-M: 24px;
+  --font-P: 16px;
+
+  --c1: #ededed;
+  --c2: #cccccc;
+  --c3: #b2b2b2;
+  --c4: #717171;
+  --c5: #595959;
+  --c6: #2e2e2e;
+  --c7: #111111;
+
+  --backg-dark: #111111;
+  --backg-white: #fff;
+  --backg-cinza: #2e2e2e;
+
+  --p1: #ffbb00;
+  --p2: #e4a30b;
+  --p3: #a66f00;
+  --p4: #664400;
+  --p5: #332200;
+}
+
+.font-gg {
+  font-family: Poppins-Regular;
+  font-size: var(--font-GG);
+}
+
+.font-g {
+  font-family: Poppins-Regular;
+  font-size: var(--font-G);
+}
+
+.font-m {
+  font-family: Poppins-Regular;
+  font-size: var(--font-M);
+}
+
+.font-p{
+  font-family: Poppins-Regular;
+  font-size: var(--font-P);
+}
+
+.c1 {
+  color: var(--c1);
+}
+.c2 {
+  color: var(--c2);
+}
+
+.c3 {
+  color: var(--c3);
+}
+.c4 {
+  color: var(--c4);
+}
+.c5 {
+  color: var(--c5);
+}
+.c6 {
+  color: var(--c6);
+}
+.c7 {
+  color: var(--c7);
+}
+.backg-dark {
+  background-color: var(--backg-dark);
+}
+
+.backg-cinza {
+  background-color: var(--backg-cinza);
+}
+
+.backg-white {
+  background-color: var(--backg-white);
+}
+
+.p1{
+  color: var(--p1);
+}
+.p2{
+  color: var(--p2);
+}
+.p3{
+  color: var(--p3);
+}
+.p4{
+  color: var(--p4);
+}
+.p5{
+  color: var(--p5);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 220px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav{
+  display: flex;
+  gap: 20px;
+}
+
+.linkreset{
+  text-decoration: none;
+}
+
+.nav-item{
+  text-align: center;
+}
+
+.flex-v{
+  display: flex;
+  flex-direction: column;
+}
+
+.botao{
+  padding: 8px 16px;
+  background-color: var(--p1);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--c7);
+  display: inline-block;
+  max-width: max-content;
+}
